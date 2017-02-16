@@ -1,7 +1,7 @@
 from django.test import TestCase
 from django.utils.text import slugify
 
-from .models import Post
+from posts.models import Post
 # Create your tests here.
 
 class PostModelTestCase(TestCase):
